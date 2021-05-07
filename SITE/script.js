@@ -1,6 +1,6 @@
 let add = document.getElementById('txt')
 let lista = document.getElementById('seltab')
-
+let res = document.getElementById('res')
 let num = []
 
 function isNumero(n) {
@@ -60,7 +60,7 @@ function finalizar(){
         let menor = num[0]
         var soma = 0
         let media = 0
-        f
+        
 
         for(let pos in num){
             soma += num[pos]
